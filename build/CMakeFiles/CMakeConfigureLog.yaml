@@ -1,0 +1,520 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m0plus
+      The host system is: Darwin - 23.1.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/3.29.9/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/3.29.9/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-1LoiF1"
+      binary: "/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-1LoiF1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/lamparina/.pico-sdk/sdk/2.1.0/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-1LoiF1'
+        
+        Run Build Command(s): /Users/lamparina/.pico-sdk/ninja/v1.12.1/ninja -v cmTC_a4a9b
+        [1/2] /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb  -std=gnu11   -v -o CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o -c /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4a9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccD60R7A.s
+        GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 1f3af632e8b95c7877a003ac172c463f
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccD60R7A.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o -o cmTC_a4a9b.elf   && :
+        Using built-in specs.
+        COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4a9b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4a9b.elf.'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccVAwX5r.res --sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_a4a9b.elf -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o
+        /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4a9b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4a9b.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+        implicit include dirs: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-1LoiF1']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/lamparina/.pico-sdk/ninja/v1.12.1/ninja -v cmTC_a4a9b]
+        ignore line: [[1/2] /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb  -std=gnu11   -v -o CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o -c /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/']
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4a9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccD60R7A.s]
+        ignore line: [GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1f3af632e8b95c7877a003ac172c463f]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/']
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccD60R7A.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o -o cmTC_a4a9b.elf   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+        ignore line: [COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4a9b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4a9b.elf.']
+        link line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccVAwX5r.res --sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_a4a9b.elf -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o]
+          arg [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccVAwX5r.res] ==> ignore
+          arg [--sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a4a9b.elf] ==> ignore
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_a4a9b.dir/CMakeCCompilerABI.c.o] ==> ignore
+        ignore line: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4a9b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4a9b.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-DhPpK7"
+      binary: "/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-DhPpK7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/lamparina/.pico-sdk/sdk/2.1.0/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-DhPpK7'
+        
+        Run Build Command(s): /Users/lamparina/.pico-sdk/ninja/v1.12.1/ninja -v cmTC_85181
+        [1/2] /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb  -std=gnu++17   -v -o CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o -c /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_85181.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu++17 -version -o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccw8XsmW.s
+        GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+        ignoring nonexistent directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 1db7fee203e7aaa1b59b043d54efd9f3
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccw8XsmW.s
+        GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+        COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_85181.elf   && :
+        Using built-in specs.
+        COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
+        COLLECT_LTO_WRAPPER=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+        COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_85181.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_85181.elf.'
+         /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccnA6Gl7.res --sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_85181.elf -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_85181.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_85181.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+          add: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1/backward]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        collapse include dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+        implicit include dirs: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include/c++/13.3.1/backward;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/lamparina/Documentos/cepedi/ohmimetro/build/CMakeFiles/CMakeScratch/TryCompile-DhPpK7']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/lamparina/.pico-sdk/ninja/v1.12.1/ninja -v cmTC_85181]
+        ignore line: [[1/2] /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb  -std=gnu++17   -v -o CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o -c /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/']
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/lamparina/.pico-sdk/cmake/v3.29.9/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_85181.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu++17 -version -o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccw8XsmW.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/backward]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1db7fee203e7aaa1b59b043d54efd9f3]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/']
+        ignore line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o /var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccw8XsmW.s]
+        ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
+        ignore line: [COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_85181.elf   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+        ignore line: [COMPILER_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_85181.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_85181.elf.']
+        link line: [ /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccnA6Gl7.res --sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_85181.elf -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o]
+          arg [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/pj/mrmvmv9n6xz241_xkjmt7s040000gn/T//ccnA6Gl7.res] ==> ignore
+          arg [--sysroot=/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_85181.elf] ==> ignore
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
+          arg [-L/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_85181.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+        ignore line: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_85181.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_85181.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        collapse library dir [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/lib/gcc;/Users/lamparina/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+...
