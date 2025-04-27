@@ -71,6 +71,11 @@ Multiplicados por potências de 10: (1Ω, 10Ω, 100Ω, 1kΩ, etc.)
 - Resistores com valores muito altos ou muito baixos podem apresentar erros maiores
 - O sistema é projetado para resistores de 3 faixas de cores
 
+## link do video
+
+ video do projeto: https://www.youtube.com/watch?v=x4i_sGu9kac
+ 
 ## Desenvolvimento
 
 Projeto desenvolvido por Wilton Lacerda Silva e adaptado por Muriel Costa.
+
