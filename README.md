@@ -73,4 +73,4 @@ Multiplicados por potências de 10: (1Ω, 10Ω, 100Ω, 1kΩ, etc.)
 
 ## Desenvolvimento
 
-Projeto desenvolvido por Wilton Lacerda Silva e editado por Muriel Costa.
+Projeto desenvolvido por Wilton Lacerda Silva e adaptado por Muriel Costa.
